@@ -922,6 +922,34 @@ body .body-overlay {
   color: var(--primary_color);
 }
 
+.resume-area .resume-content .resume-timeline .item:hover .fendt {
+  color: #009115;
+}
+.resume-area .resume-content .resume-timeline .item:hover .valtra {
+  color: #E4002B;
+}
+.resume-area .resume-content .resume-timeline .item:hover .mf {
+  color: #C71121;
+}
+.resume-area .resume-content .resume-timeline .item:hover .agco {
+  color: #AE132A;
+}
+.resume-area .resume-content .resume-timeline .item:hover .ao {
+  color: #0391d2; 
+} 
+.resume-area .resume-content .resume-timeline .item:hover .laminex {
+  color: #a98871; 
+} 
+.resume-area .resume-content .resume-timeline .item:hover .sce {
+  color: #fed141;  
+} 
+.resume-area .resume-content .resume-timeline .item:hover .gst {
+  color:  #b9ece9;
+} 
+.resume-area .resume-content .resume-timeline .item:hover .infy {
+  color:  #0B9FFA;
+} 
+
 
 
 /* 12 - Services */

@@ -22,48 +22,50 @@ export default function Resume() {
           <div className="resume-timeline">
             <div className="item scroll-animation" data-aos="fade-right">
               <span className="date">2021 - Present</span>
-              <h2>Valtra</h2>
+              <h2 className="valtra">Valtra</h2>
               <p>React Native Mobile application </p>
-              <h2>Massey Ferguson</h2>
+              <h2 className="mf">Massey Ferguson</h2>
               <p>React Native Mobile application</p>
             </div>
             <div className="item scroll-animation" data-aos="fade-left">
               <span className="date">2021</span>
               <h2>
-                Joined <b>AGCO</b> as Mobile application Lead
+                Joined <b className="agco">AGCO</b>
               </h2>
+              <p>As Lead Mobile Application Developer </p>
             </div>
-            <div className="item scroll-animation" data-aos="fade-left">
+            <div className="item scroll-animation" data-aos="fade-right">
               <span className="date">2020 - 2021</span>
-              <h2>FendtONE</h2>
+              <h2 className="fendt">FendtONE</h2>
               <p>React Native Mobile application</p>
             </div>
             <div className="item scroll-animation" data-aos="fade-left">
               <span className="date">2019 - 2020</span>
-              <h2>Australian Open</h2>
+              <h2 className="ao">Australian Open</h2>
               <p>React Native Mobile application</p>
             </div>
-            <div className="item scroll-animation" data-aos="fade-left">
+            <div className="item scroll-animation" data-aos="fade-right">
               <span className="date">2017 - 2019</span>
-              <h2>Laminex</h2>
+              <h2 className="laminex">Laminex</h2>
               <p>ReactJS E-Com website</p>
-              <h2>Southern California Edison</h2>
+              <h2 className="sce">Southern California Edison</h2>
               <p>ReactJS electricity utility website</p>
             </div>
 
             <div className="item scroll-animation" data-aos="fade-left">
               <span className="date">2015 - 2017</span>
-              <h2>GST</h2>
+              <h2 className="gst">GST</h2>
               <p>AngularJS Indirect Tax Portal</p>
             </div>
-            <div className="item scroll-animation" data-aos="fade-left">
+            <div className="item scroll-animation" data-aos="fade-right">
               <span className="date">2015</span>
               <h2>
-                Joined <b>Infosys</b> as systems engineer trainee
+                Joined <b className="infy">Infosys</b>
               </h2>
+              <p>As Systems Engineer Trainee</p>
             </div>
 
-            <div className="item scroll-animation" data-aos="fade-right">
+            <div className="item scroll-animation" data-aos="fade-left">
               <span className="date">2011 - 2015</span>
               <h2>
                 Completed Bachelors Degree in Electrical & Electronic
