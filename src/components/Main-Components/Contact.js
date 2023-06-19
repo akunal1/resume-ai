@@ -19,7 +19,7 @@ export default function Contact() {
             </h1>
           </div>
           <h3 className="scroll-animation" data-aos="fade-up">
-            hello@drake.design
+            me@avinashnayak.in
           </h3>
           <p id="required-msg">* Marked fields are required to fill.</p>
 
@@ -81,27 +81,15 @@ export default function Contact() {
                   <label htmlFor="subject">
                     subject <sup>*</sup>
                   </label>
-                  <select name="subject" id="subject">
-                    <option value="">Select a subject</option>
-                    <option value="subject1">Subject 1</option>
-                    <option value="subject2">Subject 2</option>
-                    <option value="subject3">Subject 3</option>
-                  </select>
-                </div>
-              </div>
-              <div className="col-md-12">
-                <div className="input-group">
-                  <label htmlFor="budget">
-                    your budget <span>(optional)</span>
-                  </label>
                   <input
-                    type="number"
-                    name="budget"
-                    id="budget"
-                    placeholder="A range budget for your project"
+                    type="subject"
+                    name="subject"
+                    id="subject"
+                    placeholder="Enter your subject here"
                   />
                 </div>
               </div>
+
               <div className="col-md-12">
                 <div className="input-group">
                   <label htmlFor="message">message</label>
@@ -112,7 +100,7 @@ export default function Contact() {
                   ></textarea>
                 </div>
               </div>
-              <div className="col-md-12">
+              {/* <div className="col-md-12">
                 <div className="input-group upload-attachment">
                   <div>
                     <label htmlFor="upload-attachment">
@@ -122,7 +110,7 @@ export default function Contact() {
                     </label>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="col-md-12">
                 <div className="input-group submit-btn-wrap">
                   <button

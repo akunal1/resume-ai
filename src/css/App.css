@@ -949,6 +949,9 @@ body .body-overlay {
 .resume-area .resume-content .resume-timeline .item:hover .infy {
   color:  #0B9FFA;
 } 
+.font-24 {
+  font-size: 24px !important;
+}
 
 
 

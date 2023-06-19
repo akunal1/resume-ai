@@ -22,11 +22,11 @@ export default function Main() {
           <Resume />
           <Service />
           <Skills />
-          {/* <Portfolio/> */}
-          {/* <Testimonials/> */}
-          {/* <Clientlogos/> */}
+          <Portfolio />
+          {/* <Testimonials /> */}
+          {/* <Clientlogos /> */}
           {/* <Pricing/> */}
-          {/* <Contact/> */}
+          <Contact />
         </div>
       </div>
     </main>
