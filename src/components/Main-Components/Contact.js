@@ -12,10 +12,10 @@ export default function Contact() {
         <div className="contact-content content-width">
           <div className="section-header">
             <h4 className="subtitle scroll-animation" data-aos="fade-up">
-              <i className="las la-dollar-sign"></i> contact
+              <i className="las la-phone"></i> contact
             </h4>
             <h1 className="scroll-animation" data-aos="fade-up">
-              Let's Work <span>Together!</span>
+              Let's <span>Connect !</span>
             </h1>
           </div>
           <h3 className="scroll-animation" data-aos="fade-up">
