@@ -9,7 +9,7 @@ export default function Lsb() {
       </div>
       <img className="me" src="./assets/images/me-b-bg.png" alt="Me" />
       <h2 className="email">me@avinashnayak.in</h2>
-      <h2 className="address">Base in Bengaluru,India</h2>
+      <h2 className="address">Based in Bengaluru, India</h2>
       <p className="copyright">Web / Mobile app Developer & UX Designer</p>
       <ul className="social-profile d-flex align-items-center flex-wrap justify-content-center">
         <li>

@@ -14,13 +14,13 @@ export default function Skills() {
             <h4 className="subtitle scroll-animation" data-aos="fade-up">
               <i className="las la-shapes"></i> my skills
             </h4>
-            <h1 className="scroll-animation" data-aos="fade-up">
+            <h1 className="scroll-animation" data-aos="fade-left">
               <span>Skills</span>
             </h1>
           </div>
 
           <div className="row skills text-center">
-            <div className="col-md-3 scroll-animation" data-aos="fade-down">
+            <div className="col-md-3 scroll-animation" data-aos="fade-right">
               <div className="skill">
                 <div className="skill-inner">
                   <img
@@ -43,7 +43,7 @@ export default function Skills() {
               </div>
             </div>
 
-            <div className="col-md-3 scroll-animation" data-aos="fade-left">
+            <div className="col-md-3 scroll-animation" data-aos="fade-down">
               <div className="skill">
                 <div className="skill-inner">
                   <img
@@ -55,7 +55,7 @@ export default function Skills() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 scroll-animation" data-aos="fade-right">
+            <div className="col-md-3 scroll-animation" data-aos="fade-left">
               <div className="skill">
                 <div className="skill-inner">
                   <img
