@@ -10,6 +10,8 @@ import Testimonials from "./Main-Components/Testimonials";
 import Clientlogos from "./Main-Components/Clientlogos";
 import Pricing from "./Main-Components/Pricing";
 import Contact from "./Main-Components/Contact";
+import FloatingButton from "../Chat/FloatingButton";
+import ChatPopup from "../Chat/ChatPopup";
 
 export default function Main() {
   return (
@@ -27,6 +29,8 @@ export default function Main() {
           {/* <Clientlogos /> */}
           {/* <Pricing/> */}
           <Contact />
+          {/* <FloatingButton /> */}
+          <ChatPopup />
         </div>
       </div>
     </main>

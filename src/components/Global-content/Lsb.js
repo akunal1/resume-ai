@@ -1,4 +1,5 @@
 import React from "react";
+import ChatPopup from "../../Chat/ChatPopup";
 
 export default function Lsb() {
   return (
@@ -38,9 +39,9 @@ export default function Lsb() {
         </li>
       </ul>
 
-      <a href="#contact" className="theme-btn">
+      {/* <a href="#contact" className="theme-btn">
         <i className="las la-sms"></i> Chat Now
-      </a>
+      </a> */}
     </div>
   );
 }
