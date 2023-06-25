@@ -33,7 +33,7 @@ const ChatPopup = () => {
                 },
                 {
                   role: "user",
-                  content: `your instructions are : ${ME.instruction}. use provide data to answer the any question :  ${ME.data} . Answer to  below question(try to answer as short as possible) in english language. And remember that you can't use any data outside the provided data by me : Question is : \n ${msg}`
+                  content: `your instructions are : ${ME.instruction}. use provide data to answer the any question :  ${ME.data} , ${ME.aboutMe} , ${ME.experience} ,${ME.projects} ,${ME.proud} ,${ME.tech} ,${ME.education} . Answer to  below question(try to answer as short as possible) in english language. And remember that you can't use any data outside the provided data by me : Question is : \n ${msg}`
                 }
               ],
             },
