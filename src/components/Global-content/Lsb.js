@@ -1,5 +1,6 @@
 import React from "react";
 import ChatPopup from "../../Chat/ChatPopup";
+import DownloadResume from "../../DownloadResume";
 
 export default function Lsb() {
   return (
@@ -8,7 +9,7 @@ export default function Lsb() {
         {/* <img src="./assets/images/logo.png" alt="Logo" height={50} /> */}
         {/* <p className="designation">Web Developer & UX Designer</p> */}
       </div>
-      <img className="me" src="./assets/images/me-b-bg.png" alt="Me" />
+      <img className="me" src="./assets/images/me.png" alt="Me" />
       <h2 className="email">me@avinashnayak.in</h2>
       <h2 className="address">Based in Bengaluru, India</h2>
       <p className="copyright">Web / Mobile app Developer & UX Designer</p>
@@ -38,10 +39,7 @@ export default function Lsb() {
           </a>
         </li>
       </ul>
-
-      {/* <a href="#contact" className="theme-btn">
-        <i className="las la-sms"></i> Chat Now
-      </a> */}
+      <DownloadResume />
     </div>
   );
 }

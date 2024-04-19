@@ -2,8 +2,8 @@
   position: fixed;
   right: 20px;
   bottom: 20px;
-  width: 300px;
-  height: 400px;
+  width: 400px;
+  height: 600px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -31,7 +31,7 @@
 }
 
 .chat-messages {
-  padding: 20px;
+  padding: 4px;
   overflow-y: auto;
   flex-grow: 1;
 }
