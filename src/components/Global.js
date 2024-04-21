@@ -6,6 +6,7 @@ import Scrollnav from "./Global-content/Scrollnav";
 import Lsb from "./Global-content/Lsb";
 import Settings from "./Global-content/Settings";
 import MainWrapper from "./MainWrapper";
+import FullPageIframe from "./Stream";
 
 export default function Global() {
   const [currentVideo, setVideo] = useState("");
@@ -14,9 +15,11 @@ export default function Global() {
     setVideo(videos);
   }
   return (
-    <div>
+    <div style={{ width: "100%", height: "100%" }}>
       <Video video={currentVideo} />
       {/* <Pageloader /> */}
+
+      {/* <FullPageIframe /> */}
 
       {/* Settings icon */}
       <Settings clickEvent={changeVideo} />
