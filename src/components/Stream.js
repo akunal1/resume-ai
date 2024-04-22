@@ -19,7 +19,7 @@ const FullPageIframe = () => {
   return (
     <div style={fullStyle}>
       <iframe
-        src="https://embedstreams.me/ipl/kolkata-knight-riders-vs-royal-challengers-bengaluru-stream-2"
+        src="https://embedstreams.me/ipl/rajasthan-royals-vs-mumbai-indians-stream-2"
         style={iframeStyle}
         scrolling="no"
         frameBorder="0"
